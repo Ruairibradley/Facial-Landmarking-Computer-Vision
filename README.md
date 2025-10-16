@@ -48,7 +48,7 @@ These results demonstrate the effectiveness of HOG features and augmentation in 
 ## Visual Results
 
 <p align="center">
-  <img src="./images/Facial%Landmark%picture .png" width="500"/>
+  <img src="./images/Facial%Landmark%picture.png" width="500"/>
 </p>
 <p align="center"><em>Predicted (red) vs Ground Truth (green) facial landmarks on a sample image.</em></p>
 
