@@ -48,12 +48,12 @@ These results demonstrate the effectiveness of HOG features and augmentation in 
 ## Visual Results
 
 <p align="center">
-  <img src="./images/Facial%Landmark%picture.png" width="500"/>
+  <img src="./images/Facial%20Landmark%20picture%20.png" width="500"/>
 </p>
 <p align="center"><em>Predicted (red) vs Ground Truth (green) facial landmarks on a sample image.</em></p>
 
 <p align="center">
-  <img src="./images/Facial%landmark%boxplot%image.png" width="500"/>
+  <img src="./images/Facial%20landmark%20boxplot%20image.png" width="500"/>
 </p>
 <p align="center"><em>Boxplot of landmark prediction error distribution across validation data.</em></p>
 
@@ -65,6 +65,7 @@ These results demonstrate the effectiveness of HOG features and augmentation in 
    ```bash
    git clone https://github.com/Ruairibradley/Facial-Landmark-Detection.git
    cd Facial-Landmark-Detection
+
 
 
 2. Open the project notebook:
