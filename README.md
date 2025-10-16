@@ -8,9 +8,9 @@ Developed as part of the *Applied Machine Learning* module at the University of 
 ## Overview
 
 Facial landmark detection is a key task in computer vision, forming the foundation for applications such as face recognition, emotion analysis, and augmented reality.  
-This project applies **Histogram of Oriented Gradients (HOG)** features and a **Ridge Regression (L2 regularised)** model to predict facial landmarks from grayscale images.
+This project applies Histogram of Oriented Gradients (HOG) features and a Ridge Regression (L2 regularised) model to predict facial landmarks from grayscale images.
 
-Through systematic experimentation, this approach achieved a **Mean Point Error (MPE)** of **4.36 pixels** on the validation set (measured on 256×256 images), showing strong localisation accuracy and generalisation.
+Through systematic experimentation, this approach achieved a Mean Point Error (MPE) of 4.36 pixels on the validation set (measured on 256×256 images), showing strong localisation accuracy and generalisation.
 
 ---
 
@@ -40,8 +40,22 @@ Dataset used:
 | HOG + Ridge Regression | HOG | None | 5.12 |
 | HOG + Ridge Regression | HOG | Flip + Brightness | **4.36** |
 
-The final model achieved a mean point error (MPE) of **4.36 px**, with a median error of **3.23 px** and **95% of predictions within 10.49 px** of ground truth.  
+The final model achieved a mean point error (MPE) of 4.36 px, with a median error of 3.23 px and 95% of predictions within 10.49 px of ground truth.  
 These results demonstrate the effectiveness of HOG features and augmentation in capturing facial structure under varied lighting and pose conditions.
+
+---
+
+## Visual Results
+
+<p align="center">
+  <img src="./images/Facial%Landmark%picture .png" width="500"/>
+</p>
+<p align="center"><em>Predicted (red) vs Ground Truth (green) facial landmarks on a sample image.</em></p>
+
+<p align="center">
+  <img src="./images/Facial%landmark%boxplot%image.png" width="500"/>
+</p>
+<p align="center"><em>Boxplot of landmark prediction error distribution across validation data.</em></p>
 
 ---
 
@@ -51,6 +65,7 @@ These results demonstrate the effectiveness of HOG features and augmentation in 
    ```bash
    git clone https://github.com/Ruairibradley/Facial-Landmark-Detection.git
    cd Facial-Landmark-Detection
+
 
 2. Open the project notebook:
 Launch Jupyter Notebook or another Python IDE (VS Code, PyCharm, or Google Colab).
